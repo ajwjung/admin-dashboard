@@ -16,7 +16,9 @@ a {
 
 .container,
 .sidebar,
-.nav {
+.nav,
+.header,
+.main-content {
     display: grid;
 }
 
@@ -86,7 +88,6 @@ a {
     padding: 5px 15px;
     grid-area: 1 / 2;
 
-    display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
@@ -158,5 +159,20 @@ button {
 
 .main-content {
     background: var(--secondary-color);
+    grid-area: 2 / 2;
+
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(auto-fit, 1fr);
+}
+
+.projects {
+    grid-row: 1 / span 2;
+}
+
+.announcements {
+    grid-area: 1 / 2;
+}
+
+.trending {
     grid-area: 2 / 2;
 }
