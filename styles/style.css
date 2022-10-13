@@ -18,7 +18,8 @@ a {
 .sidebar,
 .nav,
 .header,
-.main-content {
+.main-content,
+.p-cards {
     display: grid;
 }
 
@@ -147,7 +148,8 @@ button {
     width: 30px;
 }
 
-#profile-icon {
+#profile-icon,
+.user-pic {
     height: 50px;
     width: 50px;
 }
@@ -159,20 +161,33 @@ button {
 
 .main-content {
     background: var(--secondary-color);
+    padding: 20px;
     grid-area: 2 / 2;
 
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: repeat(auto-fit, 1fr);
+    grid-template-rows: repeat(2, 0.5fr);
+    gap: 30px;
 }
 
 .projects {
-    grid-row: 1 / span 2;
+    grid-row: 1 / span 4;
+}
+
+.p-cards {
+    grid-column: 1;
+    grid-row: 2 span 4;
+
+    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+    grid-template-rows: repeat(auto-fit, 1fr);
+    gap: 30px;
 }
 
 .announcements {
-    grid-area: 1 / 2;
+    grid-row: 1 / span 2;
+    grid-column: 2;
 }
 
 .trending {
-    grid-area: 2 / 2;
+    grid-row: 3 / span 2;
+    grid-column: 2;
 }
