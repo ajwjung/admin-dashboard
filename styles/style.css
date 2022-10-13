@@ -102,12 +102,16 @@ a {
     grid-area: 1 / 1;
 }
 
+#search-bar,
+button {
+    border-radius: 50px;
+    border: none;
+}
+
 #search-bar {
     height: 25px;
     width: 80%;
     background:rgb(210, 210, 210);
-    border-radius: 50px;
-    border: none;
 }
 
 .user-profile {
@@ -120,6 +124,12 @@ a {
 
 .buttons {
     grid-area: 2 / 2;
+}
+
+button {
+    height: 40px;
+    width: 120px;
+    background:rgb(120, 120, 120);
 }
 
 /* Header icons */
