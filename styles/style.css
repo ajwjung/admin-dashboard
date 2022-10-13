@@ -9,7 +9,8 @@ a {
 }
 
 .container,
-.sidebar {
+.sidebar,
+.nav {
     display: grid;
 }
 
@@ -42,11 +43,21 @@ a {
 .nav {
     grid-row: 2;
     padding: 0 2rem;
+
+    grid-template-rows: 1fr 1fr;
 }
 
 .nav-link {
     padding: 1rem;
     justify-content: flex-start;
+}
+
+.main-links {
+    grid-row: 1;
+}
+
+.other-links {
+    grid-row: 2;
 }
 
 /* Sidebar icons */
