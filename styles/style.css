@@ -42,7 +42,8 @@ a {
 .search,
 .user-profile,
 .user-greeting,
-.buttons {
+.buttons,
+.user {
     display: flex;
     align-items: center;
     gap: 15px;
@@ -198,4 +199,8 @@ button {
 .trending {
     grid-row: 3 / span 2;
     grid-column: 2;
+}
+
+.user {
+    height: 100px;
 }
