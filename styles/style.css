@@ -177,11 +177,7 @@ button {
 }
 
 .p-cards {
-    grid-column: 1;
-    grid-row: 2 span 4;
-
     grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
-    grid-template-rows: repeat(auto-fit, 1fr);
     gap: 30px;
 }
 
