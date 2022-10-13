@@ -1,0 +1,28 @@
+body {
+    background: rgb(243, 248, 255);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 5fr;
+}
+
+.sidebar {
+    background: rgb(120, 120, 120);
+    grid-row: 1 / span 2;
+    grid-column: 1;
+}
+
+.header {
+    background: rgb(255, 255, 255);
+    grid-area: 1 / 2;
+}
+
+.main-content {
+    background: rgb(210, 210, 210);
+    grid-area: 2 / 2;
+}
