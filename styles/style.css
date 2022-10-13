@@ -77,6 +77,7 @@ a {
 
 .header {
     background: rgb(255, 255, 255);
+    padding: 5px 15px;
     grid-area: 1 / 2;
 
     display: grid;
@@ -84,8 +85,29 @@ a {
     grid-template-rows: 1fr 1fr;
 }
 
+.search,
+.user-profile,
+.user-greeting,
+.buttons {
+    justify-content: flex-start;
+    padding: 0 calc(1.5rem + 5%);
+}
+
+.user-profile,
+.buttons {
+    justify-content: end;
+}
+
 .search {
     grid-area: 1 / 1;
+}
+
+#search-bar {
+    height: 25px;
+    width: 80%;
+    background:rgb(210, 210, 210);
+    border-radius: 50px;
+    border: none;
 }
 
 .user-profile {
@@ -113,8 +135,8 @@ a {
 }
 
 #profile-pic {
-    height: 70px;
-    width: 70px;
+    height: 80px;
+    width: 80px;
 }
 
 .main-content {
