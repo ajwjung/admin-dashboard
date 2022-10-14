@@ -4,12 +4,21 @@
     --tertiary-color: rgb(147, 212, 194);
     --shadow-color: rgba(196, 186, 179, 0.5);
     --svg-filter-color: invert(37%) sepia(42%) saturate(256%) hue-rotate(345deg) brightness(98%) contrast(81%);
+    --light-font-color: rgb(99, 83, 70);
+    --dark-font-color: rgb(62, 52, 44);
 }
 
 body {
     /* background: rgb(243, 248, 255); */
     margin: 0;
     padding: 0;
+    color: var(--dark-font-color);
+}
+
+a,
+button,
+h1 {
+    color: var(--light-font-color);
 }
 
 a {
