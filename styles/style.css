@@ -177,8 +177,14 @@ button {
 }
 
 .p-cards {
+    height: 90%;
     grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
     gap: 30px;
+}
+
+.project-card {
+    min-width: min-content;
+    height: clamp(200px, 30vh, 1fr);
 }
 
 .project-card,
