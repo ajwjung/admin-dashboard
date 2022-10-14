@@ -15,18 +15,25 @@ body {
     color: var(--dark-font-color);
 }
 
+a {
+    text-decoration: none;
+}
+
 a,
 button,
 h1 {
     color: var(--light-font-color);
 }
 
-a {
-    text-decoration: none;
-}
-
 .filter-brown {
     filter: var(--svg-filter-color);
+}
+
+/* Styles outlines when tabbing across the page*/
+.sidebar *:focus,
+.header *:focus,
+.trending *:focus {
+    outline-color: var(--light-font-color);
 }
 
 .container,
@@ -171,10 +178,6 @@ button {
 #search-bar:hover,
 #search-bar:focus {
     background: var(--shadow-color);
-}
-
-#search-bar:focus {
-    outline-color: var(--light-font-color);
 }
 
 button {
