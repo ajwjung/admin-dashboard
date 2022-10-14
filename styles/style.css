@@ -8,6 +8,7 @@
     --light-font-color: rgb(89,74,63);
     --dark-font-color: rgb(62, 52, 44);
     --primary-font: 'Battambang', cursive;
+    --large-gap: 30px;
 }
 
 /* Universal styles */
@@ -111,7 +112,7 @@ h1 {
     padding: 0 2rem;
 
     flex-direction: column;
-    gap: 30px;
+    gap: var(--large-gap);
 }
 
 .nav-link {
@@ -172,7 +173,7 @@ h1 {
 
 .user-profile {
     grid-area: 1 / 2;
-    gap: 30px;
+    gap: var(--large-gap);;
 }
 
 .user-greeting {
@@ -260,7 +261,7 @@ button {
 
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
-    column-gap: 30px;
+    column-gap: var(--large-gap);;
     row-gap: 10px;
 }
 
@@ -272,7 +273,7 @@ button {
 .p-cards {
     height: 90%;
     grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
-    gap: 30px;
+    gap: var(--large-gap);;
 }
 
 .project-card {
