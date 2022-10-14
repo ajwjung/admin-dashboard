@@ -152,6 +152,7 @@ h1 {
 
 .user-profile {
     grid-area: 1 / 2;
+    gap: 30px;
 }
 
 .user-greeting {
