@@ -10,15 +10,7 @@
     --primary-font: 'Battambang', cursive;
 }
 
-* {
-    font-family: var(--primary-font);
-}
-
-.bold,
-button {
-    font-weight: 700;
-}
-
+/* Universal styles */
 body {
     /* background: rgb(243, 248, 255); */
     margin: 0;
@@ -26,8 +18,18 @@ body {
     color: var(--dark-font-color);
 }
 
+/* Font styles */
 a {
     text-decoration: none;
+}
+
+* {
+    font-family: var(--primary-font);
+}
+
+.bold,
+button {
+    font-weight: 700;
 }
 
 a,
@@ -47,6 +49,7 @@ h1 {
     outline-color: var(--light-font-color);
 }
 
+/* Creates overall layout */
 .container,
 .sidebar,
 .header,
@@ -97,6 +100,7 @@ h1 {
     gap: 15px;
 }
 
+/* Styles sidebar elements */
 .branding {
     grid-row: 1;
     padding: 1rem;
@@ -115,6 +119,10 @@ h1 {
     justify-content: flex-start;
 }
 
+.nav-link > a {
+    font-weight: 600;
+}
+
 .main-links {
     grid-row: 1;
 }
@@ -130,10 +138,11 @@ h1 {
 }
 
 .navlink-icon {
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
 }
 
+/* Styles header elements */
 .header {
     background: var(--primary-color);
     padding: 15px;
@@ -243,6 +252,7 @@ button {
     padding: 8px;
 }
 
+/* Styles main content */
 .main-content {
     background: var(--secondary-color);
     padding: 20px;
