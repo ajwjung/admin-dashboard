@@ -3,6 +3,7 @@
     --secondary-color: rgb(243, 213, 189);
     --tertiary-color: rgb(147, 212, 194);
     --shadow-color: rgba(196, 186, 179, 0.5);
+    --svg-filter-color: invert(37%) sepia(42%) saturate(256%) hue-rotate(345deg) brightness(98%) contrast(81%);
 }
 
 body {
@@ -13,6 +14,10 @@ body {
 
 a {
     text-decoration: none;
+}
+
+.filter-brown {
+    filter: var(--svg-filter-color);
 }
 
 .container,
