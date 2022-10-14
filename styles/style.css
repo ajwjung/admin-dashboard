@@ -3,8 +3,8 @@
     --secondary-color: rgb(243, 213, 189);
     --tertiary-color: rgb(147, 212, 194);
     --shadow-color: rgba(196, 186, 179, 0.5);
-    --svg-filter-color: invert(37%) sepia(42%) saturate(256%) hue-rotate(345deg) brightness(98%) contrast(81%);
-    --light-font-color: rgb(99, 83, 70);
+    --svg-filter-color: invert(29%) sepia(21%) saturate(471%) hue-rotate(343deg) brightness(93%) contrast(90%);
+    --light-font-color: rgb(89,74,63);
     --dark-font-color: rgb(62, 52, 44);
 }
 
