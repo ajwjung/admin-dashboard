@@ -198,5 +198,9 @@ button {
 }
 
 .user {
-    height: 100px;
+    padding: 10px;
+}
+
+.user-description > p {
+    margin: 0;
 }
