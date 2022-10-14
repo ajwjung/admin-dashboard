@@ -191,6 +191,14 @@ button {
     background: var(--shadow-color);
 }
 
+#username {
+    font-size: 1.2rem;
+}
+
+#greeting-name {
+    font-size: 1.5rem;
+}
+
 button {
     height: 40px;
     width: 10vw;
