@@ -168,7 +168,11 @@ button {
     padding: 5px 15px;
 }
 
-/* Changes search bar outline */
+#search-bar:hover,
+#search-bar:focus {
+    background: var(--shadow-color);
+}
+
 #search-bar:focus {
     outline-color: var(--light-font-color);
 }
