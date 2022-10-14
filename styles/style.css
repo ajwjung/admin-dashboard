@@ -164,14 +164,19 @@ button {
 #search-bar {
     height: 25px;
     width: clamp(250px, 80%, 40vw);
-    background:var(--secondary-color);
+    background: var(--secondary-color);
     padding: 5px 15px;
+}
+
+/* Changes search bar outline */
+#search-bar:focus {
+    outline-color: var(--light-font-color);
 }
 
 button {
     height: 40px;
     width: 10vw;
-    background:var(--tertiary-color);
+    background: var(--tertiary-color);
 }
 
 /* Header icons */
