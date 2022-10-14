@@ -16,7 +16,6 @@ a {
 
 .container,
 .sidebar,
-.nav,
 .header,
 .main-content,
 .p-cards {
@@ -38,6 +37,7 @@ a {
 }
 
 .branding,
+.nav,
 .nav-link,
 .search,
 .user-profile,
@@ -45,6 +45,15 @@ a {
 .buttons,
 .user {
     display: flex;
+}
+
+.branding,
+.nav-link,
+.search,
+.user-profile,
+.user-greeting,
+.buttons,
+.user {
     align-items: center;
     gap: 15px;
 }
@@ -58,7 +67,8 @@ a {
     grid-row: 2;
     padding: 0 2rem;
 
-    grid-template-rows: 1fr 1fr;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .nav-link {
