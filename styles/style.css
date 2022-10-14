@@ -1,7 +1,8 @@
 :root {
-    --primary-color: rgb(255, 255, 255);
-    --secondary-color: rgb(210, 210, 210);
-    --tertiary-color: rgb(120, 120, 120);
+    --primary-color: rgb(252, 242, 231);
+    --secondary-color: rgb(243, 213, 189);
+    --tertiary-color: rgb(147, 212, 194);
+    --shadow-color: rgba(196, 186, 179, 0.5);
 }
 
 body {
