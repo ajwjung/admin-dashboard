@@ -7,6 +7,15 @@
     --border-color: rgb(255, 255, 255);
     --light-font-color: rgb(89,74,63);
     --dark-font-color: rgb(62, 52, 44);
+    --primary-font: 'Battambang', cursive;
+}
+
+* {
+    font-family: var(--primary-font);
+}
+
+.bold {
+    font-weight: 700;
 }
 
 body {
