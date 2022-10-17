@@ -217,6 +217,7 @@ button {
 button {
     height: 40px;
     width: 10vw;
+    min-width: min-content;
     background: var(--tertiary-color);
     font-size: 1rem;
 }
