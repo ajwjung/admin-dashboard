@@ -146,7 +146,7 @@ h1 {
 /* Styles header elements */
 .header {
     background: var(--primary-color);
-    padding: 15px;
+    padding: 15px 0;
     grid-area: 1 / 2;
     z-index: 2; /* allows box shadow to fully show */
 
