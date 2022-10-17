@@ -229,7 +229,8 @@ button {
     width: 30px;
 }
 
-.user-pic {
+.user-pic,
+#profile-pic {
     height: 50px;
     width: 50px;
 }
@@ -249,8 +250,6 @@ button {
 
 #profile-pic {
     border: 2px solid var(--border-color);
-    height: 60px;
-    width: 60px;
     padding: 8px;
 }
 
