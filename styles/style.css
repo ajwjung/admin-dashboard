@@ -75,7 +75,8 @@ h1 {
     grid-column: 1;
     z-index: 3; /* allows box shadow to fully show */
 
-    grid-template-rows: 1fr 8fr;
+    grid-template-rows: 10vh;
+    grid-auto-rows: 70vh;
 }
 
 .branding,
