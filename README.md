@@ -1,5 +1,7 @@
 # Admin Dashboard
 
+* [Live Demo](https://ajwjung.github.io/admin-dashboard/) :star2:
+
 ## Objective
 
 To create an admin dashboard to demonstrate understanding of CSS Grid. Full details can be found on [The Odin Project's page](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard).
